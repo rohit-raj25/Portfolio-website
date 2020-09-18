@@ -1,0 +1,19 @@
+.project__card {
+    margin: 30px 10px;
+    border: 1px solid black;
+    border-radius: 10px;;
+}
+
+.project__card >* {
+padding : 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.card__footer{
+    display : flex;
+    justify-content: space-around;
+   text-align: center;
+}
