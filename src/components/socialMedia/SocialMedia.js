@@ -8,7 +8,7 @@ const socialMedia =()=>{
         github: "https://github.com/sonali-singh97",
         linkedin: "https://www.linkedin.com/in/sonali-singh20/",
         gmail: "sonali122000@gmail.com",
-        twitter : ""
+        twitter : "https://twitter.com/sonali12_singh"
          
       };
 return(

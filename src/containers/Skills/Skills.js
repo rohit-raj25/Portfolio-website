@@ -4,7 +4,7 @@ import {Fade} from "react-reveal";
 import SoftwareSkills from '../../components/SoftwareSkills/SoftwareSkills';
 import webImg from '../../assets/images/undraw_logic_n6th.svg';
 import emoji from "react-easy-emoji";
-const skills = (props) => {
+const skills = () => {
 return (
     <div className="main" id="skills">
    <div className="main-skills"> 

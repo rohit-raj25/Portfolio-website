@@ -15,7 +15,7 @@ const projects =()=>{
       {
         title: "Burger Builder",
         subtitle: "Single page application built with React,Redux, and React Router.",
-        image: require("../../assets/images/burgerBuilder.png"),
+        image: require("../../assets/images/Builder.png"),
         footerLink: [
           { name: "Github", url: "https://github.com/sonali-singh97/Burger-builder" },
           { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
@@ -25,9 +25,9 @@ const projects =()=>{
       {
         title: "Forkify",
         subtitle: "Recipe Finder app built with Javascript and Node.js",
-        image: require("../../assets/images/undraw_logic_n6th.svg"),
-        footerLink: [{ name: "Github", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }
-        ,{ name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }]
+        image: require("../../assets/images/forkify.png"),
+        footerLink: [{ name: "Github", url: "https://github.com/sonali-singh97/Forkify.git" }
+        ,{ name: "Final Project", url: "/" }]
       },
   
       {
@@ -43,10 +43,10 @@ const projects =()=>{
       {
         title: "To-Do list",
         subtitle: "Web application to manage tasks built with EJS, Node.js, Express.js.",
-        image: require("../../assets/images/undraw_logic_n6th.svg"),
+        image: require("../../assets/images/To Do.png"),
         footerLink: [
-          { name: "Github", url: "" },
-          { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+          { name: "Github", url: "https://github.com/sonali-singh97/To-Do-list" },
+          { name: "Final Project", url: "/" }
         ]
       }
     ]
