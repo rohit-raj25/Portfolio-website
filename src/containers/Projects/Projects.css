@@ -1,7 +1,37 @@
-.container{
-    margin: 50px;
-}
-.heading {
-    font-size: 50px;
-    
-}
+.project-main-div {
+    width: 90%;
+      padding: 20px 10px;
+      margin: 0px auto;
+      margin-top: 2rem;
+  }
+  
+  .project-heading {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0px;
+    }
+    .project-subtitle {
+      text-transform: uppercase;
+      margin: 0px;
+      margin-bottom: 50px;
+    }
+  
+  .project-cards-div{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem 1rem;
+  }
+    /* media query */
+  
+    @media (max-width: 768px) {
+      .project-heading {
+        font-size: 30px;
+        text-align: center;
+      }
+      .project-subtitle {
+        font-size: 16px;
+        line-height: normal;
+        text-align: center;
+      }
+    }

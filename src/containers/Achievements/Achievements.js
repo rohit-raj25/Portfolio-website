@@ -9,33 +9,40 @@ const achievements =()=> {
     const achievementSection = {
 
         title: emoji("Achievements And Certifications 🏆 "),
-        subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+        subtitle: "Achievements, Certifications and Some Cool Stuff that I have done !",
       
         achivementsCards: [
           {
-            title: "Google Code-In Finalist",
-            subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-            image: require("../../assets/images/undraw_logic_n6th.svg"),
-            footerLink: [
-              { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-              { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-              { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-            ]
+            title: "Member of DSC UIET",
+            subtitle: "Tech lead of web development at Developer Students Club UIET",
+            image: require("../../assets/images/DSC.jpg"),
+            // footerLink: [
+            //   { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+            //   { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+            //   { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+            // ]
           },
           {
-            title: "Google Assistant Action",
-            subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-            image: require("../../assets/images/undraw_logic_n6th.svg"),
-            footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+            title: "Open Source Contributor ",
+            subtitle: "Contributed in Frontend part of the project Feminist Bible",
+            image: require("../../assets/images/GSSoc.png"),
+          },
+          {
+            title: "UI/UX Design ",
+            subtitle: "Completed 6 week training of UI design from Internshala",
+            image: require("../../assets/images/UI design.svg"),
+            footerLink: [{ name: "Certificate",
+             url: "https://trainings.internshala.com/view_certificate/EE2AA6B8-08F3-872F-BE4C-138E5FE03191/5E6F5CFE-112B-A058-5478-19B84464C45B" }]
           },
       
           {
-            title: "PWA Web App Developer",
-            subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-            image: require("../../assets/images/undraw_logic_n6th.svg"),
+            title: "Intro to CPP ",
+            subtitle: "Completed 1 month course from coding ninjas",
+            image: require("../../assets/images/cn.png"),
             footerLink: [
-              { name: "Certification", url: "" },
-              { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+              { name: "Certification", 
+              url: "https://ninjasfiles.s3.amazonaws.com/certificate320726a77620a6dd36a4b83f3174cca07a79ac.pdf" },
+             
             ]
           }
         ]

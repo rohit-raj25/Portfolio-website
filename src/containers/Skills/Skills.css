@@ -1,10 +1,9 @@
 .main-skills{
     display : flex;
 }
- 
-.main {
-  padding-top: 10%;
-}
+ .main{
+   padding-top : 2rem;
+ }
 .skills-text-div {
   margin-left: 50px;
   
@@ -18,22 +17,18 @@
 .skills-image-div > img {
     max-width: 100%;
     height: auto;
+    padding: 5% 2%;
     margin-left : 10px;
     margin-right: 10px;
   }
 
   .skills-heading {
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 400;
   }
 
   /* media query */
-  @media (min-width: 768px && max-width: 1380px) {
-    .skills-heading {
-      font-size: 40px;
-    }
-    
-  }
+ 
 
     @media (max-width: 768px) {
 

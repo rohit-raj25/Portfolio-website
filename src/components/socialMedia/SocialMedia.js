@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const socialMedia =()=>{
     const socialMediaLinks = {
 
-        github: "https://github.com/saadpasta",
-        linkedin: "https://www.linkedin.com/in/saadpasta/",
+        github: "https://github.com/sonali-singh97",
+        linkedin: "https://www.linkedin.com/in/sonali-singh20/",
         gmail: "sonali122000@gmail.com",
         twitter : ""
          

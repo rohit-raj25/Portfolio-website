@@ -20,9 +20,9 @@ return (
   </div>
 
   <div className="certificate-card-footer" >
-  {props.footer.map((v, i) => {
+  {props.footer!=null ?props.footer.map((v, i) => {
             return <span class="certificate-tag" onClick={() => openUrlInNewTab(v.url)}>{v.name}</span>;
-          })}
+          }) : null}
   </div>
     </div>
 

@@ -10,10 +10,10 @@ const experience = (props) => {
             company: "The Uplift Project",
             companylogo: require("../../assets/images/uplift.jpg"),
             date: "June 2020 – August 2020",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            desc: "Global-remote initiative by GirlScript Foundation ",
             descBullets: [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+              "Worked on a project based on Node js",
+              "Got familiar with open source contribution"
             ]
           },
           {
@@ -21,10 +21,10 @@ const experience = (props) => {
             company: "Unschool",
             companylogo: require("../../assets/images/unschool.png"),
             date: "Dec 2019 – Jan 2020",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            desc: "Unschool is an e-mentorship company ",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "Promoted Unschool in my campus",
+                " Handled leads, conversion, and social media marketing"
               ]
         }
         ];

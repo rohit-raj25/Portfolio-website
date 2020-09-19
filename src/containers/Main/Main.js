@@ -6,6 +6,7 @@ import Experience from '../Experience/Experience';
 import Achievements from '../Achievements/Achievements';
 import Footer from '../../components/footer/footer';
 import Contact from '../Contact/Contact';
+import TopUp from "../TopUp/TopUp";
 import Aux from '../../hoc/auxillary';
 
 class Main extends Component {
@@ -19,6 +20,7 @@ render() {
     <Achievements />
     <Contact />
     <Footer />
+    <TopUp />
  </Aux>
     )
     }
