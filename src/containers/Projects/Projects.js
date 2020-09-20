@@ -27,7 +27,7 @@ const projects =()=>{
         subtitle: "Recipe Finder app built with Javascript and Node.js",
         image: require("../../assets/images/forkify.png"),
         footerLink: [{ name: "Github", url: "https://github.com/sonali-singh97/Forkify.git" }
-        ,{ name: "Final Project", url: "/" }]
+        ,{ name: "Final Project", url: "https://forkify-83430.web.app/" }]
       },
   
       {
