@@ -37,18 +37,18 @@ const projects =()=>{
         footerLink: [
           { name: "Github", url: "https://github.com/sonali-singh97/Budgety" },
           { name: "Final Project", url: "https://sonali-singh97.github.io/Budgety/" }
-        ]
-      },
+        ]}
+      // ,
 
-      {
-        title: "To-Do list",
-        subtitle: "Web application to manage tasks built with EJS, Node.js, Express.js.",
-        image: require("../../assets/images/To Do.png"),
-        footerLink: [
-          { name: "Github", url: "https://github.com/sonali-singh97/To-Do-list" },
-          { name: "Final Project", url: "/" }
-        ]
-      }
+      // {
+      //   title: "To-Do list",
+      //   subtitle: "Web application to manage tasks built with EJS, Node.js, Express.js.",
+      //   image: require("../../assets/images/To Do.png"),
+      //   footerLink: [
+      //     { name: "Github", url: "https://github.com/sonali-singh97/To-Do-list" },
+      //     { name: "Final Project", url: "/" }
+      //   ]
+      // }
     ]
   };
 return(
