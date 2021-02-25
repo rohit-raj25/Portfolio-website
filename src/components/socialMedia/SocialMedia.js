@@ -13,22 +13,22 @@ const socialMedia =()=>{
       };
 return(
     <div className='social-media-div'>
-     <a href={socialMediaLinks.github} className="icon-button github" target="_blank">
+     <a href={socialMediaLinks.github} className="icon-button github"rel="noopener noreferrer" target="_blank">
      <FontAwesomeIcon icon={["fab","github"]} className="icons" /> 
         
       </a>
 
-      <a href={socialMediaLinks.linkedin} className="icon-button linkedin" target="_blank">
+      <a href={socialMediaLinks.linkedin} className="icon-button linkedin" rel="noopener noreferrer" target="_blank">
         <FontAwesomeIcon icon={["fab","linkedin-in"]}  className="icons" /> 
       
       </a>
 
-      <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google" target="_blank">
+      <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google" rel="noopener noreferrer" target="_blank">
         <FontAwesomeIcon icon={["fab","google"]}  className="icons" />  
         
       </a>
 
-      <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank">
+      <a href={socialMediaLinks.twitter} className="icon-button twitter" rel="noopener noreferrer" target="_blank">
         <FontAwesomeIcon icon={["fab","twitter"]}  className="icons" />  
         
       </a>

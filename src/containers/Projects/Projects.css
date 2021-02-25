@@ -25,6 +25,9 @@
     /* media query */
   
     @media (max-width: 768px) {
+      .project-main-div {
+          margin-top: 2rem;
+      }
       .project-heading {
         font-size: 30px;
         text-align: center;
@@ -34,4 +37,7 @@
         line-height: normal;
         text-align: center;
       }
+      .project-cards-div{
+        gap: 3rem 1rem;
+    }
     }

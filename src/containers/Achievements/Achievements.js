@@ -24,8 +24,15 @@ const achievements =()=> {
           },
           {
             title: "Open Source Contributor ",
-            subtitle: "Contributed in Frontend part of the project Feminist Bible",
+            subtitle: "Contributed to the project Feminist Bible in Girlscript Summer of Code",
             image: require("../../assets/images/GSSoc.png"),
+          },
+          {
+            title: "Front-End Web UI Frameworks and Tools: Bootstrap 4",
+            subtitle: "Completed 4 week course from Coursera",
+            image: require("../../assets/images/web-dev.png"),
+            footerLink: [{ name: "Certificate",
+             url: "https://coursera.org/share/fdf1b20bbb6a1280aa48f4f99e8f8983" }]
           },
           {
             title: "UI/UX Design ",

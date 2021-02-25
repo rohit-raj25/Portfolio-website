@@ -34,4 +34,8 @@
       line-height: normal;
       text-align: center;
     }
+    .achievement-cards-div{
+   
+      gap: 3rem 1rem;
+  }
   }

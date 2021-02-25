@@ -34,6 +34,10 @@ const softwareSkills = ()=> {
             fontAwesomeClassname: ["fab", "npm"]
           },
           {
+            skillName: "sql-database",
+            fontAwesomeClassname: ["fas", "database"]
+          },
+          {
             skillName: "firebase",
             fontAwesomeClassname: ["fas", "fire"]
           },

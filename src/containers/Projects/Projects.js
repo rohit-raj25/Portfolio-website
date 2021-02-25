@@ -13,6 +13,16 @@ const projects =()=>{
   
     projectsCards: [
       {
+        title: "Talk Amigo",
+        subtitle: "A full-stack web application like Instagram built using MERN stack",
+        image: require("../../assets/images/talkAmigo.jpeg"),
+        footerLink: [
+          { name: "Github", url: "https://github.com/sonali-singh97/talk-amigo" },
+          // { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
+         
+        ]
+      },
+      {
         title: "Burger Builder",
         subtitle: "Single page application built with React,Redux, and React Router.",
         image: require("../../assets/images/Builder.png"),
@@ -53,7 +63,7 @@ const projects =()=>{
   };
 return(
   <Fade bottom duration={1000} distance="20px">
-  <div className="projects-main" id="projects">
+  <div className="main" id="projects">
    <div className="project-main-div">
        <div className="project-header">
        <h1 className="heading project-heading">{projectSection.title}</h1>

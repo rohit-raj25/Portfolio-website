@@ -2,7 +2,10 @@
     display : flex;
 }
  .main{
-   padding-top : 2rem;
+   width : 90%;
+   padding-top : 2rem 10px;
+   margin: 0 auto;
+   margin-top: 4rem;
  }
 .skills-text-div {
   margin-left: 40px;
@@ -43,10 +46,12 @@
     .main-skills {
         flex-direction: column
       }
-
+      .main{
+        margin-top: 2rem;
+      }
       .skills-text-div {
-        margin-left: 0px;
         margin: 20px;
+        margin-left: 0px;
       }
       .skills-text-subtitle {
         font-size: 16px;

@@ -22,8 +22,8 @@ return (
   <div className="project-card-footer" >
   <ul className="project-tag" >
     <li className="link-list">  <FontAwesomeIcon icon={["fab" , "github"]} className="icon-link" onClick={() => openUrlInNewTab(props.footer[0].url)}/> </li>
-      <li className="link-list"> 
-           <FontAwesomeIcon icon={["fas" , "external-link-alt"]} className="icon-link" onClick={() => openUrlInNewTab(props.footer[1].url)}/> </li>
+    {props.footer.length>1 &&   <li className="link-list"> 
+           <FontAwesomeIcon icon={["fas" , "external-link-alt"]} className="icon-link" onClick={() => openUrlInNewTab(props.footer[1].url)}/> </li> }
             
      </ul>   
   </div>

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 1rem 1rem;
-    margin-top : 30px;
+    margin-top : 2rem;
 }
 
 .experience-heading {
@@ -15,7 +15,7 @@
     width: 90%;
     padding: 20px 10px;
     margin: 0px auto;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .experience-container>* {
@@ -26,8 +26,16 @@
 media query */
 
 @media (max-width: 768px) {
+    .experience-container {
+        margin-top: 2rem;
+    }
     .experience-heading {
         font-size: 30px;
         text-align: center;
+    }
+
+    .experience-cards-div {
+        gap: 3rem 1rem;
+       
     }
 }

@@ -7,7 +7,7 @@ import {Fade} from "react-reveal";
 const Contact=()=>{
     const contactInfo = {
         title: emoji("Contact Me 📞"),
-        subtitle: "GOT AN INTERESTING PROJECT TO WORK ON? OR JUST WANNA HANGOUT OVER A COFFEE. LET ME KNOW WHEN AND WHERE",
+        subtitle: "GOT AN INTERESTING PROJECT TO WORK ON OR JUST WANNA SAY HI? MY INBOX IS OPEN FOR ALL",
         address: "Gurgaon, Haryana",
         email_address: "sonali122000@gmail.com"
       };

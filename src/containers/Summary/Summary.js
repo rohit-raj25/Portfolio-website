@@ -19,13 +19,13 @@ return (
            
        </div>
     <p className="greeting-text-p subtitle">
-         {emoji("A passionate Web Developer 🚀 having knowledge of web technologies like  JavaScript , Reactjs and Nodejs .")}
+         {emoji("A passionate Web Developer 🚀 having knowledge of web technologies like  JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.")}
          </p>
     <SocialMedia />
 
     <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href="https://drive.google.com/file/d/1CZalW2g8DcOvg9FOIpJAhknRDuF5onXY/view?usp=sharing" />
+              <Button text="See my resume" newTab={true} href="https://drive.google.com/file/d/1hZeSzN4WLbxqzj4-SmppN1u6ss_tCeAy/view?usp=sharing" />
             </div>
             </div>
            
