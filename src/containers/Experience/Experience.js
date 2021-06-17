@@ -6,54 +6,28 @@ import ExperienceCard from '../../components/cards/ExperienceCard/ExperienceCard
 const experience = (props) => {
     const  experience = [
       {
-        role: "Web Development Intern",  
-        company: "Dataphilics",
-        companylogo: require("../../assets/images/dataphilics.png"),
-        date: "January 2020 – Present",
-        desc: "Working on Restaurant POS system",
+        role: "Full Stack Developer Intern",  
+        company: "Text Mercato",
+        companylogo: require("../../assets/images/TMlogo.jpg"),
+        date: "April 2021 – Present",
+        // desc: "Working on Restaurant POS system",
         descBullets: [
-          "Developed React ticketing system for ML model",
-          
-           
-        
+          "Developed product pages for a SaaS website(Vue.js) where client can interact with product APIs and get respective output",
+          "Used Ant Design Vue to build user interface"
         ]
       },
       {
-        role: "Frontend Developer",  
-        company: "Solera Life Sciences Private Limited",
-        companylogo: require("../../assets/images/solera-logo.png"),
-        date: "September 2020 – December 2020",
-        desc: "Worked on the company website for 3 months",
+        role: "Web Development Intern",  
+        company: "Dataphilics",
+        companylogo: require("../../assets/images/dataphilics.png"),
+        date: "January 2021 – April 2021",
+        // desc: "Working on Restaurant POS system",
         descBullets: [
-          "Contributed to the frontend part of the MeraRx website built using React",
-          "Got to know about advanced React concepts"
-           
-        
+          "Developed the POS screen using React for Restaurant Management System  ",
+          "Worked on the Node.js backend to develop features like check-in, place order, book table and checkout"
         ]
-      }
-   
-      //     {
-      //       role: "Mentee",  
-      //       company: "The Uplift Project",
-      //       companylogo: require("../../assets/images/uplift.jpg"),
-      //       date: "June 2020 – August 2020",
-      //       desc: "Global-remote initiative by GirlScript Foundation ",
-      //       descBullets: [
-      //         "Worked on a project based on Node js",
-      //         "Got familiar with open source contribution"
-      //       ]
-      //     },
-      //     {
-      //       role: "Marketing intern",   
-      //       company: "Unschool",
-      //       companylogo: require("../../assets/images/unschool.png"),
-      //       date: "Dec 2019 – Jan 2020",
-      //       desc: "Unschool is an e-mentorship company ",
-      //       descBullets: [
-      //           "Promoted Unschool in my campus",
-      //           " Handled leads, conversion, and social media marketing"
-      //         ]
-      //   }
+      },
+
         ];
       
     return (

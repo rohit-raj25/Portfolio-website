@@ -1,7 +1,6 @@
 .project-image {
     width: 100%;
-    height: auto;
-    /* width: 250px; */
+    height: 100%;
 }
 
 .card-title {
@@ -67,6 +66,7 @@
 
     .icon-link {
         color: #000000;
+        cursor: pointer;
     }
     
     .icon-link:hover {

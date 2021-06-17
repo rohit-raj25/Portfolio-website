@@ -25,7 +25,12 @@ const softwareSkills = ()=> {
           {
             skillName: "reactjs",
             fontAwesomeClassname: ["fab", "react"]
-          }, {
+          }, 
+          {
+            skillName: "vuejs",
+            fontAwesomeClassname: ["fab", "vuejs"]
+          }, 
+          {
             skillName: "nodejs",
             fontAwesomeClassname: ["fab", "node"]
           },
@@ -48,6 +53,10 @@ const softwareSkills = ()=> {
           {
             skillName : "figma",
             fontAwesomeClassname : ["fab" , "figma"]
+          },
+          {
+            skillName : "Django",
+            fontAwesomeClassname : ["fab" , "Django"]
           }
     ]
 

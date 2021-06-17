@@ -35,7 +35,7 @@ return (
 <div className="experience-text-details">
 <h5 className="experience-text-role">{props.role}</h5>
 <h5  className="experience-text-date">{props.date}</h5>
-<p className='subtitle experience-text-desc'>{props.desc}</p>
+{/* <p className='subtitle experience-text-desc'>{props.desc}</p> */}
 <ul>
     <GetDescBullets descBullets= {props.descBullets} />
 </ul>

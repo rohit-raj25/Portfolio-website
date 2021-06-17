@@ -13,6 +13,16 @@ const achievements =()=> {
       
         achivementsCards: [
           {
+            title: "Winner at KU HackFest 2021",
+            subtitle: "Won the prize for 'Best Use of Github Students Pack'",
+            image: require("../../assets/images/KUhackfest.png"),
+            footerLink: [
+              // { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+              // { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+              { name: "Devfolio", url: "https://devfolio.co/submissions/tagonizer-a34c" }
+            ]
+          },
+          {
             title: "Member of DSC UIET",
             subtitle: "Tech lead of web development at Developer Students Club UIET",
             image: require("../../assets/images/DSC.jpg"),
@@ -26,6 +36,9 @@ const achievements =()=> {
             title: "Open Source Contributor ",
             subtitle: "Contributed to the project Feminist Bible in Girlscript Summer of Code",
             image: require("../../assets/images/GSSoc.png"),
+               footerLink: [
+              { name: "Github", url: "https://github.com/girlscript/feminist-bible-phase-2" },
+            ]
           },
           {
             title: "Front-End Web UI Frameworks and Tools: Bootstrap 4",

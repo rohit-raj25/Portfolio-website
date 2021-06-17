@@ -13,8 +13,28 @@ const projects =()=>{
   
     projectsCards: [
       {
+        title: "School Management System",
+        subtitle: "A web based platform to manage daily school operations like admissions, announcements, results, events, etc",
+        image: require("../../assets/images/school.png"),
+        footerLink: [
+          { name: "Github", url: "https://github.com/sonali-singh97/Vimal-Public-School" },
+          // { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
+         
+        ]
+      },
+      {
+        title: "Tagonizer",
+        subtitle: "A Chrome Extension for Amazon to classify product reviews and generate tags from them",
+        image: require("../../assets/images/logo.png"),
+        footerLink: [
+          { name: "Github", url: "https://github.com/sonali-singh97/Tagonizer-2" },
+          // { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
+         
+        ]
+      },
+      {
         title: "Talk Amigo",
-        subtitle: "A full-stack web application like Instagram built using MERN stack",
+        subtitle: "A full-stack social media application built using Node.js serving a REST API with React as the frontend.",
         image: require("../../assets/images/talkAmigo.jpeg"),
         footerLink: [
           { name: "Github", url: "https://github.com/sonali-singh97/talk-amigo" },
@@ -32,14 +52,6 @@ const projects =()=>{
          
         ]
       },
-      {
-        title: "Forkify",
-        subtitle: "Recipe Finder app built with Javascript and Node.js",
-        image: require("../../assets/images/forkify.png"),
-        footerLink: [{ name: "Github", url: "https://github.com/sonali-singh97/Forkify.git" }
-        ,{ name: "Final Project", url: "https://forkify-83430.web.app/" }]
-      },
-  
       {
         title: "Budgety",
         subtitle: "Budgeting app built with HTML ,CSS and Javascript",
