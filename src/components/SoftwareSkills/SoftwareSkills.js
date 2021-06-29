@@ -56,7 +56,7 @@ const softwareSkills = ()=> {
           },
           {
             skillName : "Django",
-            fontAwesomeClassname : ["fab" , "Django"]
+            fontAwesomeClassname : ["fab" , "python"]
           }
     ]
 
