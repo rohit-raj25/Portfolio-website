@@ -13,12 +13,22 @@ const projects =()=>{
   
     projectsCards: [
       {
-        title: "School Management System",
-        subtitle: "A web based platform to manage daily school operations like admissions, announcements, results, events, etc",
+        title: "GyneConnect",
+        subtitle: "A website where women can feel secure when finding trustworthy gynecologists in their area and book appointments with them. ",
+        image: require("../../assets/images/GyneConnect.jpeg"),
+        footerLink: [
+          { name: "Github", url: "https://github.com/sonali-singh97/GyneConnect" },
+          { name: "Final Project", url: "https://gyne-connect.herokuapp.com/" },
+         
+        ]
+      },
+      {
+        title: "Pathshala",
+        subtitle: "A web based platform to automate school administrative tasks along with managing all the resources and information at a single place. ",
         image: require("../../assets/images/school.png"),
         footerLink: [
-          { name: "Github", url: "https://github.com/sonali-singh97/Vimal-Public-School" },
-          // { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
+          { name: "Github", url: "https://github.com/sonali-singh97/Pathshala" },
+          { name: "Final Project", url: "https://vps-bihar.herokuapp.com/" },
          
         ]
       },
