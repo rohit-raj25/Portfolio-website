@@ -8,6 +8,8 @@ function projectCard (props){
         var win = window.open(url, "_blank");
         win.focus();
       }
+
+      const len = props.footer.length;
 return (
 <div className="project-card">
   <div className="project-image-div">
@@ -21,9 +23,11 @@ return (
 
   <div className="project-card-footer" >
   <ul className="project-tag" >
+  { props.footer[0].name ==="Github"  && 
     <li className="link-list">  <FontAwesomeIcon icon={["fab" , "github"]} className="icon-link" onClick={() => openUrlInNewTab(props.footer[0].url)}/> </li>
-    {props.footer.length>1 &&   <li className="link-list"> 
-           <FontAwesomeIcon icon={["fas" , "external-link-alt"]} className="icon-link" onClick={() => openUrlInNewTab(props.footer[1].url)}/> </li> }
+  }
+    { props.footer[len-1].name ==="Final Project" &&   <li className="link-list"> 
+           <FontAwesomeIcon icon={["fas" , "external-link-alt"]} className="icon-link" onClick={() => openUrlInNewTab(props.footer[len-1].url)}/> </li> }
             
      </ul>   
   </div>

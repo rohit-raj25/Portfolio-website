@@ -34,6 +34,19 @@
   .google .icons {
     background-color: #ea4335;
   }
+
+  .codechef .icons {
+    background-color: #703C1C;
+    position: relative;
+  }
+  .codechef .icons img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   left: 0;
+   top: 2px;
+  }
   
   .twitter .icons {
     background-color: #1da1f2;

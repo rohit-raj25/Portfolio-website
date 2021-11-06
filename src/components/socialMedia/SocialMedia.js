@@ -1,6 +1,7 @@
 import React from "react";
 import './SocialMedia.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import codechefImg from "../../assets/images/codechef.png";
 
 const socialMedia =()=>{
     const socialMediaLinks = {
@@ -8,7 +9,8 @@ const socialMedia =()=>{
         github: "https://github.com/sonali-singh97",
         linkedin: "https://www.linkedin.com/in/sonali-singh20/",
         gmail: "sonali122000@gmail.com",
-        twitter : "https://twitter.com/sonali12_singh"
+        twitter : "https://twitter.com/sonali12_singh",
+        codechef: "https://www.codechef.com/users/sonali2000"
          
       };
 return(
@@ -32,6 +34,13 @@ return(
         <FontAwesomeIcon icon={["fab","twitter"]}  className="icons" />  
         
       </a>
+      <a href={socialMediaLinks.codechef} className="icon-button codechef" rel="noopener noreferrer" target="_blank">
+        {/* <FontAwesomeIcon icon={["fab","twitter"]}  className="icons" />   */}
+        <div className="icons">
+        <img src={codechefImg} alt="codechef"  />
+        </div>
+      </a>
+
 
     </div>
 )

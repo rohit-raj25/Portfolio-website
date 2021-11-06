@@ -12,8 +12,8 @@ const experience = (props) => {
         date: "April 2021 – Present",
         // desc: "Working on Restaurant POS system",
         descBullets: [
-          "Developed product pages for a SaaS website(Vue.js) where client can interact with product APIs and get respective output",
-          "Used Ant Design Vue to build user interface"
+          "Developed the website from scratch using Vue.js and Node.js and integrated several AI tools for product demo.",
+          "Ensured only authorized employees have access to the application by validing requests through Auth0."
         ]
       },
       {
@@ -23,8 +23,8 @@ const experience = (props) => {
         date: "January 2021 – April 2021",
         // desc: "Working on Restaurant POS system",
         descBullets: [
-          "Developed the POS screen using React for Restaurant Management System  ",
-          "Worked on the Node.js backend to develop features like check-in, place order, book table and checkout"
+          "Developed the POS Screen of the Restaurant Management System using React and Redux.",
+          "Worked on the backend to develop REST APIs for checking in customers, booking table, placing order,and checkout for the staff using Node.js."
         ]
       },
 
