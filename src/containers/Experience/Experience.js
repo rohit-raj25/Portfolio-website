@@ -33,7 +33,7 @@ const experience = (props) => {
     return (
      
         <div className="main" id="experience">
-        <Fade bottom duration={1000} distance="20px">
+        <Fade bottom duration={500} distance="20px">
       <div className="experience-container" id="workExperience">
           <div>
         <h1 className="experience-heading">Experiences</h1>

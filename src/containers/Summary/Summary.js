@@ -8,7 +8,7 @@ import {Fade} from "react-reveal";
 
 const summary = () => {
 return (
-  <Fade bottom duration={1000} distance="40px">
+  <Fade bottom duration={500} distance="40px">
    <div className = "greet-main">
        <div className="greeting-main">
        <div className="greeting-text-div">
