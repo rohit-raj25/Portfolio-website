@@ -83,7 +83,7 @@ const projects =()=>{
     ]
   };
 return(
-  <Fade bottom duration={500} distance="20px">
+  <Fade bottom duration={800} distance="20px">
   <div className="main" id="projects">
    <div className="project-main-div">
        <div className="project-header">

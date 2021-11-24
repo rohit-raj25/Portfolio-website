@@ -8,7 +8,7 @@ import {Fade} from "react-reveal";
 
 const summary = () => {
 return (
-  <Fade bottom duration={500} distance="40px">
+  <Fade bottom duration={800} distance="40px">
    <div className = "greet-main">
        <div className="greeting-main">
        <div className="greeting-text-div">
@@ -19,7 +19,7 @@ return (
            
        </div>
     <p className="greeting-text-p subtitle">
-         {emoji("A passionate Software Developer 🚀 experienced in building Full-Stack applications with a focus on maintaining databases and infrastructure server-side.")}
+         {emoji("A passionate Software Developer 🚀 experienced in building Full-Stack applications with a focus on maintaining databases and infrastructure server-side code.")}
          </p>
     <SocialMedia />
 

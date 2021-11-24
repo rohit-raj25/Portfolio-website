@@ -111,6 +111,8 @@
 }
 
 .experience-text-details .subTitle {
+    list-style: none;
+    text-align: center;
     color: #666666;
     font-size: 17px;
     line-height: 1.5rem;

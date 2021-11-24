@@ -74,7 +74,7 @@ const achievements =()=> {
       };
 
 return (
-    <Fade bottom duration={500} distance="20px">
+    <Fade bottom duration={800} distance="20px">
      <div className="main" id="achievements">
       <div className="achievement-main-div">
           <div className="achievement-header">
