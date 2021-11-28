@@ -17,7 +17,7 @@ const projects =()=>{
         subtitle: "An E-commerce store for custom neon signs, also contains a design studio to create your own design and share with others ",
         image: require("../../assets/images/custom-neon.png"),
         footerLink: [
-          { name: "Final Project", url: "http://component.prabjyot.com/" },
+          { name: "Final Project", url: "https://dev-neon.netlify.app/" },
          
         ]
       },
