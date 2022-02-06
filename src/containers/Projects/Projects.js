@@ -58,28 +58,28 @@ const projects =()=>{
         image: require("../../assets/images/talkAmigo.jpeg"),
         footerLink: [
           { name: "Github", url: "https://github.com/sonali-singh97/talk-amigo" },
-          // { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
+          { name: "Final Project", url: "https://hellobuddies.herokuapp.com/" },
+         
+        ]
+      },
+      {
+        title: "Burger Builder",
+        subtitle: "Single page application built with React,Redux, and React Router.",
+        image: require("../../assets/images/Builder.png"),
+        footerLink: [
+          { name: "Github", url: "https://github.com/sonali-singh97/Burger-builder" },
+          { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
          
         ]
       },
       // {
-      //   title: "Burger Builder",
-      //   subtitle: "Single page application built with React,Redux, and React Router.",
-      //   image: require("../../assets/images/Builder.png"),
+      //   title: "Budgety",
+      //   subtitle: "Budgeting app built with HTML ,CSS and Javascript",
+      //   image: require("../../assets/images/Budgety.png"),
       //   footerLink: [
-      //     { name: "Github", url: "https://github.com/sonali-singh97/Burger-builder" },
-      //     { name: "Final Project", url: "https://burger-builder-5c387.web.app/" },
-         
-      //   ]
-      // },
-      {
-        title: "Budgety",
-        subtitle: "Budgeting app built with HTML ,CSS and Javascript",
-        image: require("../../assets/images/Budgety.png"),
-        footerLink: [
-          { name: "Github", url: "https://github.com/sonali-singh97/Budgety" },
-          { name: "Final Project", url: "https://sonali-singh97.github.io/Budgety/" }
-        ]}
+      //     { name: "Github", url: "https://github.com/sonali-singh97/Budgety" },
+      //     { name: "Final Project", url: "https://sonali-singh97.github.io/Budgety/" }
+      //   ]}
     ]
   };
 return(

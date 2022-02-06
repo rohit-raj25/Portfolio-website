@@ -25,7 +25,7 @@ return (
 
     <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href="https://drive.google.com/file/d/1D9TSzte1u4ImW3Ce45UeaQEh3SN1x5f-/view?usp=sharing" />
+              <Button text="See my resume" newTab={true} href="https://drive.google.com/file/d/1gzl841RZ_GbureEgVqy-jZ_rmkdM1nLv/view?usp=sharing" />
             </div>
             </div>
            
